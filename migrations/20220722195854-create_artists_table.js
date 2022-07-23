@@ -15,6 +15,8 @@ module.exports = {
       track_id: {
         type: Sequelize.INTEGER,
       },
+      createdAt: Sequelize.DATE,
+      updatedAt: Sequelize.DATE
     });
   },
 

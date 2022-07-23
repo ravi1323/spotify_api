@@ -1,7 +1,7 @@
 const Sequelize = require("sequelize");
 
 module.exports = (sequelize) => {
-  return sequelize.define("Track", {
+  return sequelize.define("Artist", {
     id: {
       primaryKey: true,
       autoIncrement: true,

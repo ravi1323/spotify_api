@@ -1,5 +1,4 @@
 const CheckISRC = (req, res, next) => {
-  console.log(req.body);
   const isValid = (_req) =>
     _req.body &&
     _req.body.ISRC &&

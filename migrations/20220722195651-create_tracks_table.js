@@ -22,6 +22,8 @@ module.exports = {
         allowNull: false,
         unique: true,
       },
+      createdAt: Sequelize.DATE,
+      updatedAt: Sequelize.DATE
     });
   },
 
