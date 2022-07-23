@@ -39,4 +39,4 @@ To remove the seed data (this will remove all track and artist data): `npm run s
 | SPOTIFY_BASE_URL | `https://api.spotify.com/` |
 | SPOTIFY_TOKEN_ENDPOINT | `api/token` |
 | SPOTIFY_SEARCH_ENDPOINT | `v1/search` |
-| PORT | Defaults to `5000` or set to your choice |
+| PORT | Defaults to `3001` or set to your choice |
