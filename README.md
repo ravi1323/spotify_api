@@ -15,10 +15,6 @@
 
 To restore the DB to it's blank state: `npm run migrate:undo`
 
-To seed the data with tracks and artists to explore with REST services:  `npm run seed`
-
-To remove the seed data (this will remove all track and artist data): `npm run seed:undo`
-
 ## REST Endpoints
 
 | path | method | query params | body params | 
